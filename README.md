@@ -15,6 +15,6 @@ The dataset enables unified evaluation of aspect-based sentiment analysis (ABSA)
 ## Usage
 1. Install dependencies (Python 3.9+ and PyTorch >= 2.0 recommended).
 2. Use `Seqtoseqbaseline` for training standard seq2seq baselines.
-3. Use `DPIS-SCD-LLM` for DPIS-SCD fine-tuning and evaluation.
+3. Use `DPIS-SCD-LLM` for fine-tunin LLama and Qwen ICL, fine-tuning, as well as DPIS-SCD and evaluation.
 
 
