@@ -1,0 +1,402 @@
+[
+  {
+    "input": "The Shanghai Exhibition Centre has a particularly large area of land and a particularly large number of exhibits.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = area of land, opinion_phrase = particularly large area of land, sentiment_polarity = positive, aspect_score = 4.0, reason = The Shanghai Exhibition Centre has a particularly large area of land) # (aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = number of exhibits, opinion_phrase = particularly large number of exhibits, sentiment_polarity = positive, aspect_score = 4.0, reason = and a particularly large number of exhibits)"
+  },
+  {
+    "input": "It's a very representative landscape. It's a good place to go. It's recommended. It's a good view, it's a good experience.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = landscape, opinion_phrase = very representative landscape, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a very representative landscape) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = good view, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good view)"
+  },
+  {
+    "input": "Ecotourism is good. Services and facilities are relatively new.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = Ecotourism, opinion_phrase = Ecotourism is good, sentiment_polarity = positive, aspect_score = 4.0, reason = Ecotourism is good) # (aspect_category = Accommodation Services, overall_score = 4.0, aspect_term = Services and facilities, opinion_phrase = services and facilities are relatively new, sentiment_polarity = positive, aspect_score = 4.0, reason = Services and facilities are relatively new)"
+  },
+  {
+    "input": "Upstream lake waters flow along shallow beaches and are divided into numerous streams of water by bushes in the water, which are then brought together at the edge of a cliff at the top of a tree orthopaedic waterfall. The flow follows, and the fog disperses, constituting a water curtain that is euphemistic and breathful.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = waterfall, opinion_phrase = euphemistic and breathful, sentiment_polarity = positive, aspect_score = 4.5, reason = constituting a water curtain that is euphemistic and breathful)"
+  },
+  {
+    "input": "There are all kinds of murals on the walls behind the front of the house, as well as snow squares, which are famous for their condensed work, \"Oh, snow\" . It's beautiful. It's worth looking at it.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = murals, opinion_phrase = It's beautiful, sentiment_polarity = positive, aspect_score = 4.5, reason = It's beautiful) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = snow squares, opinion_phrase = worth looking at it, sentiment_polarity = positive, aspect_score = 4.0, reason = It's worth looking at it)"
+  },
+  {
+    "input": "Venice has a unique culture and art. There's a lot of people here every day.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 4.0, aspect_term = culture and art, opinion_phrase = unique culture and art, sentiment_polarity = positive, aspect_score = 4.5, reason = Venice has a unique culture and art)"
+  },
+  {
+    "input": "Viewpoint 5A. Air quality and environment are good.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = Air quality, opinion_phrase = Air quality and environment are good, sentiment_polarity = positive, aspect_score = 4.0, reason = Air quality and environment are good) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = environment, opinion_phrase = Air quality and environment are good, sentiment_polarity = positive, aspect_score = 4.0, reason = Air quality and environment are good)"
+  },
+  {
+    "input": "Shanghai Science and Technology is so much more fun than four hours. Rainbow Gardens, science labs, zoos, Miracles, and so forth are perfect for kids.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = Shanghai Science and Technology, opinion_phrase = so much more fun, sentiment_polarity = positive, aspect_score = 4.5, reason = Shanghai Science and Technology is so much more fun than four hours)"
+  },
+  {
+    "input": "The guided leaves, they're very detailed, very professional. They're very informative. There's a lot of knowledge and literature. They'll recommend it to their relatives and friends.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = knowledge and literature, opinion_phrase = A lot of knowledge and literature., sentiment_polarity = positive, aspect_score = 4.0, reason = There's a lot of knowledge and literature)"
+  },
+  {
+    "input": "It's a special amusement park. Every theme has a very fine design. It's a fantastic environment. It's very recommended!",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = theme, opinion_phrase = very fine design, sentiment_polarity = positive, aspect_score = 4.5, reason = Every theme has a very fine design) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = environment, opinion_phrase = fantastic environment, sentiment_polarity = positive, aspect_score = 4.8, reason = It's a fantastic environment)"
+  },
+  {
+    "input": "Not only is the view in the mountains comfortable with air, but the pleasure project is particularly interesting!",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = air, opinion_phrase = comfortable with air, sentiment_polarity = positive, aspect_score = 4.0, reason = the view in the mountains comfortable with air) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = pleasure project, opinion_phrase = particularly interesting, sentiment_polarity = positive, aspect_score = 4.5, reason = the pleasure project is particularly interesting) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = in the mountains comfortable, sentiment_polarity = positive, aspect_score = 4.0, reason = the view in the mountains comfortable)"
+  },
+  {
+    "input": "Nature's magic. It's a great view.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = view, opinion_phrase = great view, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a great view) # (aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = Nature, opinion_phrase = Nature's magic, sentiment_polarity = positive, aspect_score = 4.5, reason = Nature's magic)"
+  },
+  {
+    "input": "Cultural history has a good tone, but there is a slight lack of environmental health management.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 4.0, aspect_term = Cultural history, opinion_phrase = good tone, sentiment_polarity = positive, aspect_score = 4.0, reason = Cultural history has a good tone) # (aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = environmental health management, opinion_phrase = slight lack, sentiment_polarity = negative, aspect_score = 2.0, reason = slight lack of environmental health management)"
+  },
+  {
+    "input": "In butterflies springs, there are many kinds of butterflies. Each year, between March and May, butterflies are so big and small as bees, and there are a series of frenzy trees at the edge of the spring. On April 15, they were designated by the people of the white people as butterflies. In his travels, Xu Xia used to describe them as follows: “There are thousands of real butterflies that need to be fully connected, falling from the tops of the trees to the springs, and there are so many colors.”",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = butterflies, opinion_phrase = many kinds of butterflies, sentiment_polarity = positive, aspect_score = 4.0, reason = In butterflies springs, there are many kinds of butterflies) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = butterflies, opinion_phrase = so big and small as bees, sentiment_polarity = positive, aspect_score = 4.0, reason = Each year, between March and May, butterflies are so big and small as bees, and there are a series of frenzy trees at the edge of the spring) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = colors, opinion_phrase = so many colors, sentiment_polarity = positive, aspect_score = 4.0, reason = “There are thousands of real butterflies that need to be fully connected, falling from the tops of the trees to the springs, and there are so many colors.”)"
+  },
+  {
+    "input": "It's big. There's plenty of places to play. There's a lot of people on weekends.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = places to play, opinion_phrase = plenty of places to play, sentiment_polarity = positive, aspect_score = 4.0, reason = There's plenty of places to play) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = size, opinion_phrase = It's big, sentiment_polarity = neutral, aspect_score = 3.0, reason = It's big) # (aspect_category = Business Management, overall_score = 5.0, aspect_term = crowd, opinion_phrase = a lot of people on weekends, sentiment_polarity = neutral, aspect_score = 3.0, reason = There's a lot of people on weekends)"
+  },
+  {
+    "input": "Because of the fact that it is located in the Red River basin, at a relatively southerly latitude, with sufficient water and steam in the sun, morning mists are created, particularly during the winter season, the cherry blossoms open in such a way that they are easily exposed to early morning clouds and clouds.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = morning mists, opinion_phrase = morning mists are created, sentiment_polarity = neutral, aspect_score = 3.0, reason = morning mists are created, particularly during the winter season)"
+  },
+  {
+    "input": "It's a 5-A viewing area, with his husband driving to the Xu Xu Xu Xu Xu Xu, camping base on the hilltop, arriving the next morning at the San Dynasty, and coming all the way from Shanghai. It's worth a swim. This afternoon, it's a wonderful afternoon, the Mille Buddha.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = swim, opinion_phrase = worth a swim, sentiment_polarity = positive, aspect_score = 4.0, reason = It's worth a swim) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = afternoon, opinion_phrase = wonderful afternoon, sentiment_polarity = positive, aspect_score = 4.0, reason = This afternoon, it's a wonderful afternoon) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = Mille Buddha, opinion_phrase = Mille Buddha, sentiment_polarity = positive, aspect_score = 4.0, reason = the Mille Buddha)"
+  },
+  {
+    "input": "It's a big view, and it's nice to buy a car ticket. It's a nice day, and it's not too hot, but there's a little waterfall in it. Electronic tickets change physical tickets at the tourist centre, and then go straight to the bottle station, and they change tickets at the ticket office, and they don't have to be half-circles.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = waterfall, opinion_phrase = there's a little waterfall in it, sentiment_polarity = neutral, aspect_score = 3.0, reason = and they don't have to be half-circles) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = view, opinion_phrase = It's a big view, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a big view)"
+  },
+  {
+    "input": "There are two things that you can't miss when you come to the mountain, like watching a coffin show, and watching a beautiful view on a raft. The coffin performance is brilliant, at 2:00 p.m. and 4:00 p.m. It is suggested that you can go on a raft before watching a coffin show.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = coffin show, opinion_phrase = brilliant, sentiment_polarity = positive, aspect_score = 4.5, reason = The coffin performance is brilliant)"
+  },
+  {
+    "input": "Take Mom and Dad with you, where the legends say the Yoga Point will be, it's kind of cultural. It's a nice lake. It's more exciting.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = lake, opinion_phrase = It's a nice lake, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a nice lake) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = it, opinion_phrase = It's more exciting, sentiment_polarity = positive, aspect_score = 4.0, reason = It's more exciting)"
+  },
+  {
+    "input": "♪ The ink ♪ ♪ South of the garden ♪ ♪ Up above the lake ♪ ♪ Up above the river ♪",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = garden, opinion_phrase = South of the garden, sentiment_polarity = neutral, aspect_score = 3.0, reason = South of the garden) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = lake, opinion_phrase = Up above the lake, sentiment_polarity = neutral, aspect_score = 3.0, reason = Up above the lake) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = river, opinion_phrase = Up above the river, sentiment_polarity = neutral, aspect_score = 3.0, reason = Up above the river)"
+  },
+  {
+    "input": "East-West cultural architecture is one. It's amazing! It's worth watching!",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = East-West cultural architecture, opinion_phrase = It's amazing!, sentiment_polarity = positive, aspect_score = 5.0, reason = It's amazing) # (aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = East-West cultural architecture, opinion_phrase = It's worth watching!, sentiment_polarity = positive, aspect_score = 5.0, reason = It's worth watching)"
+  },
+  {
+    "input": "A popular project! In the context of Snow White and the Seven Dwarves, it is a family-friendly trip-car project, often waiting for more than one hour.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 4.0, aspect_term = trip-car project, opinion_phrase = family-friendly trip-car project, sentiment_polarity = positive, aspect_score = 4.0, reason = In the context of Snow White and the Seven Dwarves, it is a family-friendly trip-car project)"
+  },
+  {
+    "input": "It's a crowd. It's a business model.",
+    "output": "(aspect_category = Business Management, overall_score = 4.0, aspect_term = crowd, opinion_phrase = It's a crowd, sentiment_polarity = negative, aspect_score = 2.0, reason = It's a crowd) # (aspect_category = Business Management, overall_score = 4.0, aspect_term = business model, opinion_phrase = It's a business model, sentiment_polarity = neutral, aspect_score = 3.0, reason = It's a business model)"
+  },
+  {
+    "input": "Another landmark built by Shanghai's old stone house, a lot of businesses, and a lot of small shops!",
+    "output": "(aspect_category = Shopping and Souvenirs, overall_score = 5.0, aspect_term = businesses, opinion_phrase = a lot of businesses, sentiment_polarity = positive, aspect_score = 4.0, reason = a lot of businesses) # (aspect_category = Shopping and Souvenirs, overall_score = 5.0, aspect_term = small shops, opinion_phrase = a lot of small shops, sentiment_polarity = positive, aspect_score = 4.0, reason = a lot of small shops)"
+  },
+  {
+    "input": "It's good to read online, and it's great to go with the consequences, the longest Donka, the super-intelligent Tibetan law, the unity and prosperity of the peoples of the Qing Tibetan Highlands, and the development and study of the culture of Tibetan medicine.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = Tibetan law, opinion_phrase = super-intelligent Tibetan law, sentiment_polarity = positive, aspect_score = 4.5, reason = the super-intelligent Tibetan law)"
+  },
+  {
+    "input": "It's very nice. It's a great view. There's a lot of small animals.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = view, opinion_phrase = It's a great view, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a great view) # (aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = animals, opinion_phrase = There's a lot of small animals, sentiment_polarity = positive, aspect_score = 4.0, reason = There's a lot of small animals)"
+  },
+  {
+    "input": "It's worth looking at... the culture is very strong.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = culture, opinion_phrase = the culture is very strong, sentiment_polarity = positive, aspect_score = 4.5, reason = the culture is very strong)"
+  },
+  {
+    "input": "There are more than 300 northern flowers growing in the garden of the wind, with a typical Hokkaido-type field with a new healing landscape. Gardens have different colours in different seasons.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = northern flowers, opinion_phrase = more than 300 northern flowers growing, sentiment_polarity = positive, aspect_score = 4.0, reason = There are more than 300 northern flowers growing in the garden of the wind) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = healing landscape, opinion_phrase = a new healing landscape, sentiment_polarity = positive, aspect_score = 4.0, reason = with a typical Hokkaido-type field with a new healing landscape)"
+  },
+  {
+    "input": "Ka Xing Poe, a thousand-year-old monument with a bright civilization, has been able to divide the earth into five petals, one of which is called the \"Meadows \" . It also has an outdoor sports outreach base.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = the earth, opinion_phrase = divide the earth into five petals, sentiment_polarity = neutral, aspect_score = 3.0, reason = has been able to divide the earth into five petals) # (aspect_category = Entertainment and Activities, overall_score = 4.0, aspect_term = outdoor sports outreach base, opinion_phrase = has an outdoor sports outreach base, sentiment_polarity = neutral, aspect_score = 3.0, reason = It also has an outdoor sports outreach base)"
+  },
+  {
+    "input": "It was surprising to see a place that not only described the development of Yunchang's crafts and flag robes, but also had a beautiful view, a micro version of the garden.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = beautiful view, opinion_phrase = had a beautiful view, sentiment_polarity = positive, aspect_score = 4.5, reason = had a beautiful view)"
+  },
+  {
+    "input": "There's been a lot of forest parks, and it's good to set up tents in the fall spring. The vegetation is very rich. There's a little less toilet. There's nothing wrong with it.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = vegetation, opinion_phrase = very rich, sentiment_polarity = positive, aspect_score = 4.5, reason = The vegetation is very rich) # (aspect_category = Hygiene, overall_score = 5.0, aspect_term = toilet, opinion_phrase = a little less, sentiment_polarity = negative, aspect_score = 2.0, reason = There's a little less toilet)"
+  },
+  {
+    "input": "It's fun for a family. Kids love it. It's good for the group.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = fun, opinion_phrase = It's fun for a family, sentiment_polarity = positive, aspect_score = 4.0, reason = It's fun for a family) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = kids, opinion_phrase = Kids love it, sentiment_polarity = positive, aspect_score = 4.0, reason = Kids love it) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = group, opinion_phrase = It's good for the group, sentiment_polarity = positive, aspect_score = 4.0, reason = It's good for the group)"
+  },
+  {
+    "input": "It's a great experience. It's close to the hotel. It's convenient.",
+    "output": "(aspect_category = Accommodation Services, overall_score = 5.0, aspect_term = hotel, opinion_phrase = It's close to the hotel., sentiment_polarity = positive, aspect_score = 4.0, reason = It's close to the hotel) # (aspect_category = Business Management, overall_score = 5.0, aspect_term = experience, opinion_phrase = It's a great experience., sentiment_polarity = positive, aspect_score = 5.0, reason = It's a great experience) # (aspect_category = Business Management, overall_score = 5.0, aspect_term = convenience, opinion_phrase = It's convenient., sentiment_polarity = positive, aspect_score = 4.0, reason = It's convenient)"
+  },
+  {
+    "input": "A place where you can eat, drink and drink.",
+    "output": "(aspect_category = Catering Services, overall_score = 5.0, aspect_term = eat, drink and drink, opinion_phrase = can eat, drink and drink, sentiment_polarity = neutral, aspect_score = 3.0, reason = A place where you can eat, drink and drink)"
+  },
+  {
+    "input": "Many of the stores around are also more mobile.",
+    "output": "(aspect_category = Shopping and Souvenirs, overall_score = 5.0, aspect_term = stores, opinion_phrase = more mobile, sentiment_polarity = positive, aspect_score = 4.0, reason = Many of the stores around are also more mobile)"
+  },
+  {
+    "input": "It's a beautiful view, but it needs to be improved.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = beautiful view, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a beautiful view) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = needs to be improved, sentiment_polarity = negative, aspect_score = 2.0, reason = it needs to be improved)"
+  },
+  {
+    "input": "The construction of the Guangzhou Museum is remarkable, and in the atmosphere and in the galleries there are a lot of excavated objects that deserve to be visited.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = construction, opinion_phrase = remarkable, sentiment_polarity = positive, aspect_score = 4.5, reason = The construction of the Guangzhou Museum is remarkable) # (aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = excavated objects, opinion_phrase = deserve to be visited, sentiment_polarity = positive, aspect_score = 4.0, reason = there are a lot of excavated objects that deserve to be visited)"
+  },
+  {
+    "input": "It's a good place for tourists to go to, to eat and hang out on holidays!",
+    "output": "(aspect_category = Catering Services, overall_score = 3.0, aspect_term = eat, opinion_phrase = good place ... to eat, sentiment_polarity = positive, aspect_score = 4.0, reason = to eat)"
+  },
+  {
+    "input": "Ocean Bay Eco-Tourism Zone, take a walk. Have a good time!",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = walk, opinion_phrase = take a walk, sentiment_polarity = positive, aspect_score = 4.0, reason = take a walk) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = time, opinion_phrase = Have a good time, sentiment_polarity = positive, aspect_score = 4.0, reason = Have a good time)"
+  },
+  {
+    "input": "Lake Jade Dragon is having a great time with the kids, riding camels, making tourist cars, playing ski sands, kids playing at the top of the mountain, looking at it, and the sandy lake windmills, together, make up a beautiful picture!",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = sandy lake windmills, opinion_phrase = make up a beautiful picture, sentiment_polarity = positive, aspect_score = 4.5, reason = the sandy lake windmills, together, make up a beautiful picture)"
+  },
+  {
+    "input": "It's a nice, clean, clean environment that allows people to relax fully and meet the needs of people of all ages!",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = environment, opinion_phrase = nice, clean, clean environment, sentiment_polarity = positive, aspect_score = 5.0, reason = It's a nice, clean, clean environment) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = people to relax fully, opinion_phrase = allows people to relax fully, sentiment_polarity = positive, aspect_score = 4.5, reason = allows people to relax fully)"
+  },
+  {
+    "input": "It's a beautiful view. It's nice to stand on the tip of the tongue.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = beautiful view, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a beautiful view)"
+  },
+  {
+    "input": "It's a good service, a clean pool, a beautiful environment, and it's worth coming back.",
+    "output": "(aspect_category = Business Management, overall_score = 5.0, aspect_term = service, opinion_phrase = good service, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good service) # (aspect_category = Hygiene, overall_score = 5.0, aspect_term = pool, opinion_phrase = clean pool, sentiment_polarity = positive, aspect_score = 4.0, reason = a clean pool) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = environment, opinion_phrase = beautiful environment, sentiment_polarity = positive, aspect_score = 4.0, reason = a beautiful environment)"
+  },
+  {
+    "input": "It is not far from Independence Square, where we come as we ask the locals, and where there are no tickets and few people, we can enjoy the museum in peace and quiet and learn about the textile development and fabricing processes in Malaysia.",
+    "output": "(aspect_category = Transportation Services, overall_score = 4.0, aspect_term = Independence Square, opinion_phrase = not far from Independence Square, sentiment_polarity = positive, aspect_score = 4.0, reason = not far from Independence Square)"
+  },
+  {
+    "input": "So it's a bit uneconomical, and it doesn't feel necessary for a monk to go. The sun has a lighthouse for the sun rises or sunsets, and the sea winds are very comfortable. There must be a car, otherwise it's very difficult to take a cab, and the bus won't open in the sight zone.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = sea winds, opinion_phrase = the sea winds are very comfortable., sentiment_polarity = positive, aspect_score = 4.0, reason = the sea winds are very comfortable)"
+  },
+  {
+    "input": "It's a good place for students to go to school. It's interesting.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = place, opinion_phrase = It's interesting, sentiment_polarity = positive, aspect_score = 4.0, reason = It's interesting)"
+  },
+  {
+    "input": "The Wall of Nanjing was built in Ming Dynasty, which lasted 21 years. The Wall of Nanjing was built with great skill and size. The Wall is 35.3 km between the waters of Nanjing hill in Jong-soo, and the Wall of Nanjing City is more than 60 km long. The Wall has 13 gates in the city a week. The Wall has an east gate of Yangtze, a south entrance of treasures, Tonzhi, 3 gates of Yangtze, a west side of Santze, Ishi City, a cold, a soft, 5 gates of Yifung, a north side of Taiping, Shin-cheong, Jin-cheon, and four gates of Jong-jung. The Wall is relatively well preserved in the Chinese part of the Wall, close to the historical and cultural neighbourhoods of the old Mundong, and its environment is beautiful.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = Wall of Nanjing, opinion_phrase = built with great skill and size, sentiment_polarity = positive, aspect_score = 4.5, reason = The Wall of Nanjing was built with great skill and size) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = environment, opinion_phrase = beautiful, sentiment_polarity = positive, aspect_score = 4.0, reason = its environment is beautiful) # (aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = Wall of Nanjing, opinion_phrase = relatively well preserved, sentiment_polarity = positive, aspect_score = 4.0, reason = The Wall is relatively well preserved in the Chinese part of the Wall)"
+  },
+  {
+    "input": "It's the Children's Entertainment City. It's for the weekends to play with the kids and their families.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = Children's Entertainment City, opinion_phrase = It's the Children's Entertainment City, sentiment_polarity = neutral, aspect_score = 3.0, reason = It's the Children's Entertainment City)"
+  },
+  {
+    "input": "It's a beautiful view of the forest park in Tensuyama. It's a recommended tour.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = beautiful view of the forest park, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a beautiful view of the forest park in Tensuyama)"
+  },
+  {
+    "input": "Not like 28.38 in a wide alley. It's basically satisfactory. The most artistic bird to play. It's amazing. Artists deserve to be recommended.",
+    "output": "(aspect_category = Business Management, overall_score = 5.0, aspect_term = satisfactory, opinion_phrase = It's basically satisfactory., sentiment_polarity = neutral, aspect_score = 3.0, reason = It's basically satisfactory)"
+  },
+  {
+    "input": "It's great. A beautiful tour guide can talk and play. It's fun!",
+    "output": "(aspect_category = Guided Tour Service, overall_score = 5.0, aspect_term = tour guide, opinion_phrase = can talk and play, sentiment_polarity = positive, aspect_score = 4.0, reason = A beautiful tour guide can talk and play) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = It, opinion_phrase = It's fun!, sentiment_polarity = positive, aspect_score = 4.5, reason = It's fun)"
+  },
+  {
+    "input": "It's a great place to travel, to take vacations, to live in.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = place, opinion_phrase = great place to travel, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a great place to travel) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = vacations, opinion_phrase = great place to take vacations, sentiment_polarity = positive, aspect_score = 4.5, reason = to take vacations) # (aspect_category = Accommodation Services, overall_score = 5.0, aspect_term = live in, opinion_phrase = great place to live in, sentiment_polarity = positive, aspect_score = 4.5, reason = to live in)"
+  },
+  {
+    "input": "It's natural oxygen. A big tour is a good place to go.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = oxygen, opinion_phrase = natural oxygen, sentiment_polarity = positive, aspect_score = 4.0, reason = It's natural oxygen)"
+  },
+  {
+    "input": "It's very cost-effective and it's a very good service. We've chosen the Great Lakeview Bed Room. Personally, it's good to be in a hotel.",
+    "output": "(aspect_category = Business Management, overall_score = 5.0, aspect_term = cost-effective, opinion_phrase = very cost-effective, sentiment_polarity = positive, aspect_score = 4.5, reason = It's very cost-effective) # (aspect_category = Business Management, overall_score = 5.0, aspect_term = service, opinion_phrase = very good service, sentiment_polarity = positive, aspect_score = 4.5, reason = it's a very good service)"
+  },
+  {
+    "input": "It's a beautiful place. It's a nice view.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = place, opinion_phrase = beautiful place, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a beautiful place) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = nice view, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a nice view)"
+  },
+  {
+    "input": "It's a European-style architecture. It's a great decoration. It's a great display.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = architecture, opinion_phrase = European-style architecture, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a European-style architecture) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = decoration, opinion_phrase = great decoration, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a great decoration) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = display, opinion_phrase = great display, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a great display)"
+  },
+  {
+    "input": "There's a lot of history and details here. It's a great museum with an understanding of Deok-yang's history and development!",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = museum, opinion_phrase = great museum, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a great museum)"
+  },
+  {
+    "input": "A place worth sharing, where the environment and services are satisfied!",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = environment, opinion_phrase = environment satisfied, sentiment_polarity = positive, aspect_score = 4.0, reason = where the environment and services are satisfied) # (aspect_category = Business Management, overall_score = 4.0, aspect_term = services, opinion_phrase = services are satisfied, sentiment_polarity = positive, aspect_score = 4.0, reason = where the environment and services are satisfied)"
+  },
+  {
+    "input": "There are few people who can watch the show in peace. The display at the gold museum is especially special and perfect for the beauty of the gold instrument. Invisible seals are very human. And in the middle of Shanghai, on both sides of the Farpo River.",
+    "output": "(aspect_category = Security Measures, overall_score = 5.0, aspect_term = Invisible seals, opinion_phrase = very human, sentiment_polarity = positive, aspect_score = 4.0, reason = Invisible seals are very human)"
+  },
+  {
+    "input": "It's nice, it's expensive, it's amazing, it's a tour guide, it's a human landscape, it's knowledge-building.",
+    "output": "(aspect_category = Guided Tour Service, overall_score = 5.0, aspect_term = tour guide, opinion_phrase = it's a tour guide, sentiment_polarity = positive, aspect_score = 4.0, reason = it's a tour guide) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = human landscape, opinion_phrase = it's a human landscape, sentiment_polarity = positive, aspect_score = 4.0, reason = it's a human landscape) # (aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = knowledge-building, opinion_phrase = it's knowledge-building, sentiment_polarity = positive, aspect_score = 4.0, reason = it's knowledge-building)"
+  },
+  {
+    "input": "The famous site of Lake Qinghai, formerly a naval experimental base, is now a tourist destination with cruise ships. It's 151 km from Xining, so it's called Base 151. It's beautiful to be nearby by the end of September.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = Lake Qinghai, opinion_phrase = famous site, sentiment_polarity = positive, aspect_score = 4.0, reason = The famous site of Lake Qinghai) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = beautiful, opinion_phrase = It's beautiful to be nearby, sentiment_polarity = positive, aspect_score = 4.0, reason = It's beautiful to be nearby by the end of September)"
+  },
+  {
+    "input": "It's a beautiful view. It's an amazing work of nature.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = view, opinion_phrase = beautiful view, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a beautiful view) # (aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = work of nature, opinion_phrase = amazing work of nature, sentiment_polarity = positive, aspect_score = 5.0, reason = It's an amazing work of nature)"
+  },
+  {
+    "input": "The landscape of the clouds and the ladder fields is beautiful. It's a desirable place to go.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = place, opinion_phrase = desirable place to go, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a desirable place to go)"
+  },
+  {
+    "input": "Personally, it's absolutely worth going to the scenery, and there's a lot of guides in the halls, and they can listen to it. This is the second time you've come to the Temple. Because of the early hours, the car is parked in the parking lot.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = scenery, opinion_phrase = absolutely worth going to the scenery, sentiment_polarity = positive, aspect_score = 5.0, reason = Personally, it's absolutely worth going to the scenery)"
+  },
+  {
+    "input": "The island was the best spot to film, and the television campaign, was spectacular, and it was hard to imagine that the mountains and mountains had become islands today, big and small, full of glass cables and short distances, but worth a seat and a choice between the top and the second half.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = island, opinion_phrase = the best spot to film, sentiment_polarity = positive, aspect_score = 5.0, reason = The island was the best spot to film) # (aspect_category = Entertainment and Activities, overall_score = 4.0, aspect_term = television campaign, opinion_phrase = spectacular, sentiment_polarity = positive, aspect_score = 5.0, reason = the television campaign, was spectacular)"
+  },
+  {
+    "input": "It's a very nice view, and it's worth commending.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = view, opinion_phrase = very nice view, sentiment_polarity = positive, aspect_score = 4.5, reason = It's a very nice view)"
+  },
+  {
+    "input": "The small canals built on the banks of the river, which began in 1914 with stones, were completed in nine years. The remaining part of the canal is now one of the most nostalgic and romantic scenes. The small canals not only preserve their original appearance, but also add many beautiful romantic designs.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = small canals, opinion_phrase = add many beautiful romantic designs, sentiment_polarity = positive, aspect_score = 4.0, reason = The small canals not only preserve their original appearance, but also add many beautiful romantic designs)"
+  },
+  {
+    "input": "Beautiful fireworks, fantastic colors, beautiful music.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = fireworks, opinion_phrase = Beautiful fireworks, sentiment_polarity = positive, aspect_score = 5.0, reason = Beautiful fireworks) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = colors, opinion_phrase = fantastic colors, sentiment_polarity = positive, aspect_score = 5.0, reason = fantastic colors) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = music, opinion_phrase = beautiful music, sentiment_polarity = positive, aspect_score = 5.0, reason = beautiful music)"
+  },
+  {
+    "input": "There are a lot of steps, small circles, small steps, big circles. It's a good place to go. It's a good sight.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 3.0, aspect_term = place, opinion_phrase = a good place to go, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good place to go) # (aspect_category = Landscape and Aesthetics, overall_score = 3.0, aspect_term = sight, opinion_phrase = a good sight, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good sight)"
+  },
+  {
+    "input": "One step at a time, there's a lot of plants in the garden, and they grow very spiritually. There's a lot of open space for the company. It's great!",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = garden, opinion_phrase = It's great!, sentiment_polarity = positive, aspect_score = 4.0, reason = It's great)"
+  },
+  {
+    "input": "He's been there many times, he's been overcrowded every holiday, especially during the day, but most of the tourists leave at night, the water returns to calm, and the rest of the night makes it easier for people to walk under the riverside porch, and the lights are being laid, and the view is much more beautiful than during the day.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = overcrowded, opinion_phrase = he's been overcrowded every holiday, sentiment_polarity = negative, aspect_score = 2.0, reason = he's been overcrowded every holiday) # (aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = calm water, opinion_phrase = the water returns to calm, sentiment_polarity = positive, aspect_score = 4.0, reason = the water returns to calm)"
+  },
+  {
+    "input": "Family travelers, kids get excited, climb mountains in early August, get sweaty for people who often blow air conditioning! The view can do it, you can play in the creek all the way, and the kids can have fun!",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = The view can do it, sentiment_polarity = positive, aspect_score = 4.0, reason = The view can do it)"
+  },
+  {
+    "input": "Jumera's public beach is next to the famous Seven Stars Hotel sailboat hotel, and this big hotel is the beach's dotted. It's very pretty, but it's a lot of people on the beach. It's a beautiful hotel in the evening.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = public beach, opinion_phrase = It's very pretty, sentiment_polarity = positive, aspect_score = 4.0, reason = It's very pretty) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = hotel, opinion_phrase = a beautiful hotel in the evening, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a beautiful hotel in the evening)"
+  },
+  {
+    "input": "The Shanghai Museum is a good place to go, it's got a lot of stuff, it's a lot of knowledge, it's history in front of you. When you get to the museum, you store your luggage, and you visit it one by one.",
+    "output": "(aspect_category = Security Measures, overall_score = 5.0, aspect_term = luggage, opinion_phrase = you store your luggage, sentiment_polarity = neutral, aspect_score = 3.0, reason = When you get to the museum, you store your luggage, and you visit it one by one)"
+  },
+  {
+    "input": "It's nice to be in person. A combination of nature's charms, isn't it?",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = nature's charms, opinion_phrase = nature's charms, sentiment_polarity = positive, aspect_score = 4.0, reason = A combination of nature's charms, isn't it)"
+  },
+  {
+    "input": "It's a beautiful view! It's a different style! It's more elegant!",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = beautiful view, sentiment_polarity = positive, aspect_score = 5.0, reason = It's a beautiful view) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = style, opinion_phrase = different style, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a different style) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = style, opinion_phrase = more elegant, sentiment_polarity = positive, aspect_score = 4.0, reason = It's more elegant)"
+  },
+  {
+    "input": "The feeling is similar to the Nanjing Road in Shanghai, where the swollen shoulders of the people, the swollen goods, the variety of foods, the loudness of the big city feel. It's a very strong business smell.",
+    "output": "(aspect_category = Shopping and Souvenirs, overall_score = 4.0, aspect_term = variety of foods, opinion_phrase = the variety of foods, sentiment_polarity = neutral, aspect_score = 3.0, reason = the variety of foods) # (aspect_category = Business Management, overall_score = 4.0, aspect_term = business smell, opinion_phrase = It's a very strong business smell., sentiment_polarity = neutral, aspect_score = 3.0, reason = It's a very strong business smell)"
+  },
+  {
+    "input": "The equipment in there is not well maintained. We need to be safe.",
+    "output": "(aspect_category = Security Measures, overall_score = 5.0, aspect_term = equipment, opinion_phrase = not well maintained, sentiment_polarity = negative, aspect_score = 1.0, reason = The equipment in there is not well maintained)"
+  },
+  {
+    "input": "Like the Temple of Shanghai, the merchandise is full.",
+    "output": "(aspect_category = Shopping and Souvenirs, overall_score = 4.0, aspect_term = merchandise, opinion_phrase = the merchandise is full, sentiment_polarity = positive, aspect_score = 4.0, reason = the merchandise is full)"
+  },
+  {
+    "input": "It's a good year for a family to hit a card in Fantasia. It's a good children's screening room, so let our kids feel the way we watched movies when we were kids, but if we were indoors, we'd be more interested in the fun of watching movies for our generation!",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = children's screening room, opinion_phrase = good children's screening room, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good children's screening room)"
+  },
+  {
+    "input": "As the Tokyo Disney has been open for a long time, the amusement facility is a bit old compared to the Shanghai Disneyland in the country, it's worth looking forward to next year's cartoon park, and this year it's recommended that you go to Marine Disney. But the service workers are very human, and the facilities are worth going to.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 4.0, aspect_term = facilities, opinion_phrase = worth going to, sentiment_polarity = positive, aspect_score = 4.0, reason = the facilities are worth going to) # (aspect_category = Business Management, overall_score = 4.0, aspect_term = service workers, opinion_phrase = very human, sentiment_polarity = positive, aspect_score = 4.0, reason = the service workers are very human)"
+  },
+  {
+    "input": "It's a good spot. It's a good environment. It's a good service.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = environment, opinion_phrase = good environment, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good environment) # (aspect_category = Business Management, overall_score = 5.0, aspect_term = service, opinion_phrase = good service, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good service)"
+  },
+  {
+    "input": "It's a great holiday, and there's a lot of performance in it, and there's a lot of fun in it.",
+    "output": "(aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = performance, opinion_phrase = a lot of performance in it, sentiment_polarity = positive, aspect_score = 4.0, reason = there's a lot of performance in it) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = fun, opinion_phrase = a lot of fun in it, sentiment_polarity = positive, aspect_score = 4.0, reason = there's a lot of fun in it)"
+  },
+  {
+    "input": "The scenery is very pretty for cards, weekends and leisures.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = scenery, opinion_phrase = very pretty, sentiment_polarity = positive, aspect_score = 4.5, reason = The scenery is very pretty)"
+  },
+  {
+    "input": "In the People ' s Square, the building style is still strong, there are a lot of performances, and watching shows is enjoyable.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = building style, opinion_phrase = the building style is still strong, sentiment_polarity = positive, aspect_score = 4.0, reason = the building style is still strong) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = performances, opinion_phrase = there are a lot of performances, sentiment_polarity = positive, aspect_score = 4.0, reason = there are a lot of performances) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = watching shows, opinion_phrase = watching shows is enjoyable, sentiment_polarity = positive, aspect_score = 4.5, reason = watching shows is enjoyable)"
+  },
+  {
+    "input": "The dam + the canals + 48 canals + 321 canals, irrigate numerous fine fields downstream, benefiting millions of people throughout the generations. In the canyon zone, it is possible to visit the dam and a dry canyon of the canyon. The arc canyon across the pine stream, 275 metres long, 25 metres wide, and 7.5 metres high, is the world’s first arch.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = canyon, opinion_phrase = dry canyon of the canyon, sentiment_polarity = neutral, aspect_score = 3.0, reason = In the canyon zone, it is possible to visit the dam and a dry canyon of the canyon) # (aspect_category = Landscape and Aesthetics, overall_score = 4.0, aspect_term = arc canyon, opinion_phrase = the world’s first arch, sentiment_polarity = positive, aspect_score = 5.0, reason = The arc canyon across the pine stream, 275 metres long, 25 metres wide, and 7.5 metres high, is the world’s first arch)"
+  },
+  {
+    "input": "It's worth it. It's not just mountains and water, it's history. It's a great place to travel with kids.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = history, opinion_phrase = it's history, sentiment_polarity = positive, aspect_score = 4.0, reason = it's history) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = mountains and water, opinion_phrase = not just mountains and water, sentiment_polarity = positive, aspect_score = 3.5, reason = It's not just mountains and water)"
+  },
+  {
+    "input": "It's really beautiful here, mostly the closest lavender to the city, and it's more convenient to be flowered, a few times better than a few years earlier, not bald, with a two-man bicycle.",
+    "output": "(aspect_category = Transportation Services, overall_score = 5.0, aspect_term = bicycle, opinion_phrase = with a two-man bicycle, sentiment_polarity = positive, aspect_score = 4.0, reason = with a two-man bicycle)"
+  },
+  {
+    "input": "It's good to know about history. It's good to take the kids.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = history, opinion_phrase = It's good to know about history, sentiment_polarity = positive, aspect_score = 4.0, reason = It's good to know about history) # (aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = kids, opinion_phrase = It's good to take the kids, sentiment_polarity = positive, aspect_score = 4.0, reason = It's good to take the kids)"
+  },
+  {
+    "input": "Disney Ocean, 6:15 a.m. to 7 p.m. at the hotel, until 8 p.m., it's very well managed, even if there's no confusion, and there's plenty of staff.",
+    "output": "(aspect_category = Business Management, overall_score = 5.0, aspect_term = management, opinion_phrase = very well managed, sentiment_polarity = positive, aspect_score = 4.5, reason = it's very well managed) # (aspect_category = Business Management, overall_score = 5.0, aspect_term = staff, opinion_phrase = plenty of staff, sentiment_polarity = positive, aspect_score = 4.0, reason = there's plenty of staff)"
+  },
+  {
+    "input": "Look at the ancient fragrance. You can eat the local food. It's for recreational tourism.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 5.0, aspect_term = ancient fragrance, opinion_phrase = Look at the ancient fragrance, sentiment_polarity = positive, aspect_score = 4.0, reason = Look at the ancient fragrance) # (aspect_category = Catering Services, overall_score = 5.0, aspect_term = local food, opinion_phrase = You can eat the local food, sentiment_polarity = positive, aspect_score = 4.0, reason = You can eat the local food) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = recreational tourism, opinion_phrase = It's for recreational tourism, sentiment_polarity = positive, aspect_score = 4.0, reason = It's for recreational tourism)"
+  },
+  {
+    "input": "It's a porcelain place. It's a good time to have a look at it.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = porcelain place, opinion_phrase = It's a porcelain place, sentiment_polarity = neutral, aspect_score = 3.0, reason = It's a porcelain place)"
+  },
+  {
+    "input": "It is now the season for the meadow garden, which also has a good view of the meadows, which, although small and small in size, are scattered, are more poetic because of the pavilion displays of the pavilion in the garden.",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = meadow garden, opinion_phrase = season for the meadow garden, sentiment_polarity = neutral, aspect_score = 3.0, reason = It is now the season for the meadow garden) # (aspect_category = Natural Resources and Environment, overall_score = 4.0, aspect_term = meadows, opinion_phrase = good view of the meadows, sentiment_polarity = positive, aspect_score = 4.0, reason = which also has a good view of the meadows)"
+  },
+  {
+    "input": "It's a beautiful place. It's a good view. It's a good picture card.",
+    "output": "(aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = place, opinion_phrase = beautiful place, sentiment_polarity = positive, aspect_score = 5.0, reason = It's a beautiful place) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = view, opinion_phrase = good view, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good view) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = picture card, opinion_phrase = good picture card, sentiment_polarity = positive, aspect_score = 4.0, reason = It's a good picture card)"
+  },
+  {
+    "input": "It's beautiful in the fall of the lean West Lake, the chrysanthemum show, and all kinds of chrysanthemums in the garden are so beautiful!",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = West Lake, opinion_phrase = beautiful in the fall, sentiment_polarity = positive, aspect_score = 5.0, reason = It's beautiful in the fall of the lean West Lake) # (aspect_category = Entertainment and Activities, overall_score = 5.0, aspect_term = chrysanthemum show, opinion_phrase = so beautiful, sentiment_polarity = positive, aspect_score = 5.0, reason = the chrysanthemum show, and all kinds of chrysanthemums in the garden are so beautiful) # (aspect_category = Landscape and Aesthetics, overall_score = 5.0, aspect_term = chrysanthemums in the garden, opinion_phrase = so beautiful, sentiment_polarity = positive, aspect_score = 5.0, reason = all kinds of chrysanthemums in the garden are so beautiful)"
+  },
+  {
+    "input": "You can bring kids, you can learn a lot here.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 4.0, aspect_term = learn, opinion_phrase = learn a lot here, sentiment_polarity = positive, aspect_score = 4.5, reason = you can learn a lot here) # (aspect_category = Entertainment and Activities, overall_score = 4.0, aspect_term = kids, opinion_phrase = bring kids, sentiment_polarity = positive, aspect_score = 4.0, reason = You can bring kids)"
+  },
+  {
+    "input": "A lot of local features. A lot of snacks. They're called chicken sticks.",
+    "output": "(aspect_category = Catering Services, overall_score = 5.0, aspect_term = snacks, opinion_phrase = A lot of snacks, sentiment_polarity = positive, aspect_score = 4.0, reason = A lot of snacks) # (aspect_category = Catering Services, overall_score = 5.0, aspect_term = chicken sticks, opinion_phrase = They're called chicken sticks, sentiment_polarity = neutral, aspect_score = 3.0, reason = They're called chicken sticks)"
+  },
+  {
+    "input": "There's a lot of history at Shanghai Film Productions, and there's a variety of scenes in movies. It's worth looking at.",
+    "output": "(aspect_category = Cultural and Educational Value, overall_score = 4.0, aspect_term = history, opinion_phrase = a lot of history, sentiment_polarity = positive, aspect_score = 4.0, reason = There's a lot of history at Shanghai Film Productions) # (aspect_category = Entertainment and Activities, overall_score = 4.0, aspect_term = scenes in movies, opinion_phrase = a variety of scenes in movies, sentiment_polarity = positive, aspect_score = 4.0, reason = there's a variety of scenes in movies) # (aspect_category = Cultural and Educational Value, overall_score = 4.0, aspect_term = Shanghai Film Productions, opinion_phrase = worth looking at, sentiment_polarity = positive, aspect_score = 4.0, reason = It's worth looking at)"
+  },
+  {
+    "input": "Nature's ecology! Green ecology! Green life!",
+    "output": "(aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = ecology, opinion_phrase = Nature's ecology!, sentiment_polarity = positive, aspect_score = 5.0, reason = Nature's ecology) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = ecology, opinion_phrase = Green ecology!, sentiment_polarity = positive, aspect_score = 5.0, reason = Green ecology) # (aspect_category = Natural Resources and Environment, overall_score = 5.0, aspect_term = life, opinion_phrase = Green life!, sentiment_polarity = positive, aspect_score = 5.0, reason = Green life)"
+  }
+]
