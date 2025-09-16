@@ -10,7 +10,7 @@ The dataset enables unified evaluation of aspect-based sentiment analysis (ABSA)
 ## Repository Structure
 - `data/` – A small sample version of the dataset (train/dev/test splits) for demonstration.  
 - `Seqtoseqbaseline/` – Baseline sequence-to-sequence training and evaluation scripts (e.g., T5, BART, T5 Large, BART Large).  
-- `DPIS-SCD-LLM/` – Our proposed schema-aware generative framework with Dual-Phase Instruction Schema (DPIS) and Schema-Constrained Decoding (SCD).
+- `DPIS-SCD-LLM/` – LLM and Our proposed schema-aware generative framework with Dual-Phase Instruction Schema (DPIS) and Schema-Constrained Decoding (SCD).
 
 ## Usage
 1. Install dependencies (Python 3.9+ and PyTorch >= 2.0 recommended).
