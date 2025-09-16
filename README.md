@@ -8,7 +8,7 @@ This repository provides resources for **TOUR-TUPLE-7**, a manually annotated be
 The dataset enables unified evaluation of aspect-based sentiment analysis (ABSA) tasks including extraction, classification, regression, and explanation.
 
 ## Repository Structure
-- `data/TOUR-TUPLE-7-mini/` – A small sample version of the dataset (train/dev/test splits) for demonstration.  
+- `data/` – A small sample version of the dataset (train/dev/test splits) for demonstration.  
 - `Seqtoseqbaseline/` – Baseline sequence-to-sequence training and evaluation scripts (e.g., T5, BART).  
 - `DPIS-SCD-LLM/` – Our proposed schema-aware generative framework with Dual-Phase Instruction Schema (DPIS) and Schema-Constrained Decoding (SCD).
 
