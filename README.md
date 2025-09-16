@@ -1,6 +1,8 @@
 # TOUR-TUPLE-7
 Data and code for paper TOUR-TUPLE-7: A FINE-GRAINED 7-TUPLE GENERATIVE ASPECT-BASED SENTIMENT ANALYSIS BENCHMARK FOR TOURISM SERVICE QUALITY
 
+![Overview](framework.png)
+
 # TOUR-TUPLE-7: A Fine-Grained Generative ABSA Benchmark for Tourism Service Quality
 
 This repository provides resources for **TOUR-TUPLE-7**, a manually annotated benchmark of 49,998 TripAdvisor reviews, each labeled with seven-field tuples  
