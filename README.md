@@ -1,7 +1,7 @@
 # TOUR-TUPLE-7
 TOUR-TUPLE-7: A FINE-GRAINED 7-TUPLE GENERATIVE ASPECT-BASED SENTIMENT ANALYSIS BENCHMARK FOR TOURISM SERVICE QUALITY
 
-![Overview](framework.png)
+![Overview](framework1.png)
 
 This repository provides resources for **TOUR-TUPLE-7**, a manually annotated benchmark of 49,998 TripAdvisor reviews, each labeled with seven-field tuples  
 (aspect category, aspect term, opinion term, sentiment polarity, aspect score, overall score, reason).  
