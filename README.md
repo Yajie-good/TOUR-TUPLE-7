@@ -2,7 +2,7 @@
 TOUR-TUPLE-7: A FINE-GRAINED 7-TUPLE GENERATIVE ASPECT-BASED SENTIMENT ANALYSIS BENCHMARK FOR TOURISM SERVICE QUALITY
 
 <p align="center">
-  <img src="Framework.png" alt="Overview" width="80%">
+  <img src="Framework.png" alt="Overview" width="100%">
 </p>
 
 This repository provides resources for **TOUR-TUPLE-7**, a manually annotated benchmark of 49,998 TripAdvisor reviews, each labeled with seven-slot tuples:  
@@ -14,7 +14,7 @@ The dataset enables unified evaluation of aspect-based sentiment analysis (ABSA)
 - `Seqtoseqbaseline/` – Baseline sequence-to-sequence training and evaluation scripts (e.g., T5, BART, T5 Large, BART Large).  
 - `DPIS-SCD-LLM/` – LLM and Our proposed schema-aware generative framework with Dual-Phase Instruction Schema (DPIS) and Schema-Constrained Decoding (SCD).
 <p align="center">
-  <img src="aspect_category.png" alt="Aspect Category Distribution" width="60%">
+  <img src="aspect_category.png" alt="Aspect Category Distribution" width="100%">
 </p>
 
 ## Quick Notes
