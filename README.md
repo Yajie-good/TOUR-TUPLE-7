@@ -14,7 +14,7 @@ The dataset enables unified evaluation of aspect-based sentiment analysis (ABSA)
 - `Seqtoseqbaseline/` – Baseline sequence-to-sequence training and evaluation scripts (e.g., T5, BART, T5 Large, BART Large).  
 - `DPIS-SCD-LLM/` – LLM and Our proposed schema-aware generative framework with Dual-Phase Instruction Schema (DPIS) and Schema-Constrained Decoding (SCD).
 <p align="center">
-  <img src="aspect_category.png" alt="Aspect Category Distribution" width="100%">
+  <img src="aspect_category.png" alt="Aspect Category Distribution" width="80%">
 </p>
 
 ## Quick Notes
