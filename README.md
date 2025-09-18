@@ -5,7 +5,7 @@ TOUR-TUPLE-7: A FINE-GRAINED 7-TUPLE GENERATIVE ASPECT-BASED SENTIMENT ANALYSIS 
   <img src="Framework.png" alt="Overview" width="80%">
 </p>
 
-This repository provides resources for **TOUR-TUPLE-7**, a manually annotated benchmark of 49,998 TripAdvisor reviews, each labeled with seven-field tuples  
+This repository provides resources for **TOUR-TUPLE-7**, a manually annotated benchmark of 49,998 TripAdvisor reviews, each labeled with seven-slot tuples:  
 (aspect category, aspect term, opinion term, sentiment polarity, aspect score, overall score, reason).  
 The dataset enables unified evaluation of aspect-based sentiment analysis (ABSA) tasks including extraction, classification, regression, and explanation.
 
